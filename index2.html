@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="flex items-center justify-between sm:px-6 py-4 ">
+        <div class="sm:text-xl font-semibold text-gray-800">
+          <h1 class="text-4xl ">AgriVast Farms</h1>
+        </div>
+        <!---->
+        <div class=" hidden sm:flex sm:space-x-8 text-gray-900 text-2xl">
+          <a href="#" class="hover:text-blue-900 ">Home</a>
+          <a href="#" class="hover:text-blue-900">About</a>
+          <a href="#" class="hover:text-blue-900">Contact</a>
+        </div>
+        <!---->
+        <div class=" hidden sm:flex space-x-4">
+          <button class="px-12 py-2 text-white bg-blue-900 rounded-lg hover:bg-red-800">Login</button>
+          <button class="px-12 py-2 text-gray-800 border-2 border-blue-900 rounded-lg  hover:bg-red-800">Register</button>
+        </div>
+        <i id="iconMenu" class="fa-solid fa-bars text-3xl pr-3 pt-1 sm:hidden"></i>
+        <i id="iconX" class="fa-solid fa-x text-3xl pr-3 pt-1 hidden"></i>
+
+      </header>
+      
+      <!-- mobile responsive -->
+       <div id="menu" class="bg-teal-300 w-full  hidden py-4">
+        <ul class="text-center space-y-5 pb-10 pt-3 text-3xl">
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+        <div class="text-center">
+            <button class="bg-slate-500 px-28 text-white py-3 rounded-lg ml-4">Login</button>
+            <button class="border border-slate-900 px-24 mt-5 text-slate-900 py-2 bg-transparent">Sing in</button>
+        </div>
+       </div>
+
+       <script src="main2.js"></script>
+      
+</body>
+</html>
